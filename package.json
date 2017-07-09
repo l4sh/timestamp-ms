@@ -1,0 +1,21 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "Timestamp microservice",
+  "main": "index.js",
+  "repository": "https://github.com/l4sh/timestamp-ms",
+  "author": "Luis Salazar",
+  "license": "MIT",
+  "devDependencies": {
+    "supertest": "^3.0.0",
+    "tape": "^4.6.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/test.js"
+  },
+  "dependencies": {
+    "moment": "^2.18.1",
+    "restify": "^4.3.0"
+  }
+}
